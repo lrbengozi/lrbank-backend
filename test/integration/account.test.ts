@@ -2,9 +2,9 @@ import request from "supertest";
 import app from "../../src/app";
 
 const json = {
-  fullName: "Luiz Rogério",
+  fullName: "Luiz Rogerio",
   email: "lrbengozi@gmail.com",
-  senha: "senhasupersecreta",
+  password: "senhasupersecreta",
 };
 
 describe("POST /api/v1/account - Success", () => {

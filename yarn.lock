@@ -1983,13 +1983,13 @@ expect@^27.3.1:
     jest-message-util "^27.3.1"
     jest-regex-util "^27.0.6"
 
-express-validator@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/express-validator/-/express-validator-5.3.0.tgz#18a4e4a6e6410e3b9d492fb4ffcb4556fec51806"
-  integrity sha512-HYVtPt21zp2bHS4+xwxYNF63dlq/23kh+ZRVfyo7SBObhOpRyZ0vWolm/v9KPUfCyLqX8j7ZP42dbB0MWjCCcA==
+express-validator@^6.13.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/express-validator/-/express-validator-6.13.0.tgz#270d9e8718386b04b1880b5bb7b2c1c2a91a412b"
+  integrity sha512-gvLqMFPwEm+C1CQlF3l695ubY1Shd3AtfI5JDYXM0Ju0A2GsGX+VjjQN7TcHXF6cO8wPgU8hSSFqWecBR0Gx1g==
   dependencies:
-    lodash "^4.17.10"
-    validator "^10.4.0"
+    lodash "^4.17.21"
+    validator "^13.6.0"
 
 express@^4.17.1:
   version "4.17.1"
@@ -2911,7 +2911,7 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
-lodash@^4.17.10, lodash@^4.7.0:
+lodash@^4.17.21, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -3834,10 +3834,10 @@ v8-to-istanbul@^8.1.0:
     convert-source-map "^1.6.0"
     source-map "^0.7.3"
 
-validator@^10.4.0:
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
-  integrity sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==
+validator@^13.6.0:
+  version "13.6.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.6.0.tgz#1e71899c14cdc7b2068463cb24c1cc16f6ec7059"
+  integrity sha512-gVgKbdbHgtxpRyR8K0O6oFZPhhB5tT1jeEHZR0Znr9Svg03U0+r9DXWMrnRAB+HtCStDQKlaIZm42tVsVjqtjg==
 
 vary@~1.1.2:
   version "1.1.2"
