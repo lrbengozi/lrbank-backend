@@ -1,6 +1,6 @@
 import { Router } from "express";
 import status from "../controllers/status";
-import userController from "../controllers/account";
+import createAccountController from "../controllers/CreateAccountController";
 import { body } from "express-validator";
 
 const RouteV1 = Router();
@@ -16,7 +16,7 @@ RouteV1.post(
     min: 5,
   }),
   body("email", "Invalid email").isEmail(),
-  userController.create
+  createAccountController.handle
 );
 
 export default RouteV1;

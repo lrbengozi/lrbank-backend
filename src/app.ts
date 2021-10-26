@@ -1,4 +1,5 @@
 import express from "express";
+import "./database";
 
 import RouteV1 from "./routes/v1";
 
